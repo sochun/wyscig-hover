@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+.race {
+    height: 100vh;
+    background: url('images/automobile.png') no-repeat, url('images/suv.png') no-repeat, url('images/tourist.png') no-repeat, url('images/motorsport.png') no-repeat, url('images/excavator.png') no-repeat, url('images/car.png') no-repeat, url('images/road.png') repeat;
+    
+    background-size: auto 15%, auto 15%, auto 15%, auto 10%, auto 20%, auto 15%, auto 30%;
+    background-position: top 18% left 5%, top 33% left 5%, top 54% left 5%, top 70% left 5%, top 98% left 5%, top 0 left -160%, top 0 left 0;    
+    transition: all 10s ease;
+    }
+
+.race:hover {
+    background-position: top 18% left 95%, top 33% left 75%, top 54% left 45%, top 70% left 98%, top 98% left 35%, top 96% left 280%, top 0% left -2300%;
+}
